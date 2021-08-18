@@ -6,7 +6,7 @@ The purpose of this project was to create a dropdown component from scratch.
 
 In the project directory, you can run:
 
-### `npm install`
+### `npm install` 
 
 To get started, run `npm install` in the console of the root folder of the project.
 

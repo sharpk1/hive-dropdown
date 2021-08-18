@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* Set multiSelect to false for single select */}
         <Dropdown
           value={selectedOptions}
           onChange={(option) => setSelectedOptions(option)}

@@ -2,16 +2,14 @@ import React, { useState, useEffect, useRef } from "react";
 import classnames from "classnames";
 
 const Dropdown = (props) => {
-  
   const [isActive, setIsActive] = useState(false);
   const node = useRef();
 
+  // Event listener for clicking out of component
   const handleClick = (e) => {
     if (node.current.contains(e.target)) {
-      // inside click
       return;
     }
-    // outside click
     setIsActive(false);
   };
 
