@@ -62,8 +62,6 @@
   border-top: 10px solid black;
   margin-bottom: 6px;
   cursor: pointer;
-  /* margin-left: auto;  */
-  /* margin-right: 0; */
 }
 
 .dropdown-option{
@@ -101,7 +99,7 @@
 }
 
 .dropdown-item{
-  width: 200px;
+  width: 279px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -120,4 +118,9 @@
 
 .dropdown-remove{
   cursor: pointer;
+}
+
+#root > div > header > div > div.dropdown-values.dropdown-active {
+  height: 300px;
+  overflow-y: scroll;
 }

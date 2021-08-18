@@ -10,7 +10,7 @@ function App() {
 
   const createOptions = () => {
     let options = [];
-    for (let i = 0; i < 6; i++){
+    for (let i = 0; i < 10; i++){
       options.push({label: `Option ${i}`, id: i});
     }
     return options;
